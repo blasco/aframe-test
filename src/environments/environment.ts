@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // Your web app's Firebase configuration
+  firebase: {
+    apiKey: "AIzaSyA8QDF3ifI2w6iKDrF4LgLC_X_vucvc6uQ",
+    authDomain: "flinto-vr.firebaseapp.com",
+    databaseURL: "https://flinto-vr.firebaseio.com",
+    projectId: "flinto-vr",
+    storageBucket: "flinto-vr.appspot.com",
+    messagingSenderId: "1038970881109",
+    appId: "1:1038970881109:web:763741d8aa75222ebfc0dc"
+  }
 };
 
 /*
